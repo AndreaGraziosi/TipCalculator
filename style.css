@@ -1,0 +1,111 @@
+html {
+    margin: 0;
+    font-size: 15px;
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: optima, sans-serif;
+    line-height: 1.5;
+    background-color: teal;
+  
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 1em;
+    background-color: darkslateblue;
+    color: mediumseagreen;
+    padding: 3em, 3em, 3em, 3m;
+    margin: 2em;
+    border: slategrey;
+   width: 900;
+}
+
+h1{
+   
+    display: flex;
+    justify-content: center;
+    
+}
+
+#enterBillInfo {
+
+    background-color: #eee;
+    width: 450px;
+    height: 350px;
+    margin: 2em 2em 2em 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+
+
+}
+
+label {
+    margin: 2rem; 
+    color: #e911dc;
+    
+    display: flex;
+    flex-direction: row;
+    height: 30;
+    text-align: center;
+
+
+}
+input {
+    margin: 0rem; 
+    color: #e911dc;
+    background-color: #b0e641;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    text-align: center;
+
+}
+
+button {
+    color: #1d1a18;
+    background-color: rgb(216, 99, 22);
+    flex-direction: row;
+    display: flex;
+    justify-items: center;
+
+    padding: 0rem;
+    margin: 2rem 0 2rem 0;
+    height: 25px;
+    width: 100px;
+    border-radius: 4px;
+    
+}
+#totalSplit {
+    background-color: #eee;
+    width: 450px;
+    height: 350px;
+    margin: 2em 2em 2em 2em;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ p{
+
+    margin: 0rem; 
+    color: #006400;
+    display: flex;
+    flex-direction: row;
+  
+    text-align: center;
+
+}
+ 
+h1 {
+    color: #da30b0;
+    text-align: center;
+}
