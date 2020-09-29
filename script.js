@@ -17,20 +17,16 @@ function calculateTip() {
     const tipAmount = (inputBill.value  * inputTip.value / 100)/inputPeople.value
     console.log(tipAmount, "tipAmount")    
     splitTip.innerHTML = tipAmount.toFixed(2)
-   
+    const guestSplit = tipAmount + (inputBill.value/inputPeople.value)
+    splitBill.innerHTML = guestSplit.toFixed(2)
 }
 calculateTip()
+
+
+   
 //-----------------------------------------------------------------------------
 inputBill.addEventListener("click", calculateTip)
 inputTip.addEventListener('click', calculateTip)
 inputPeople.addEventListener ('click', calculateTip)
 //--------------------------------------------------------------
 
-//Calculate total bill split
-function calculateBillSplit() {
-    const guestSplit = calculateTip() + (inputBill.value/inputPeople.value)
-    console.log(guestSplit)
-
-    splitBill.innerHTML = guestSplit.toFixed(2)
-}
-calculateBillSplit()
