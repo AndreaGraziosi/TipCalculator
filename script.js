@@ -30,3 +30,4 @@ inputTip.addEventListener('click', calculateTip)
 inputPeople.addEventListener ('click', calculateTip)
 //--------------------------------------------------------------
 
+        
